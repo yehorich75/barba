@@ -1,27 +1,22 @@
 ---
 title: Index Page
--var posts = [
-	{
-		img: "1.jpg",
-		title: "Blabla 1"
-	},
-	{
-		img: "2.jpg",
-		title: "Blabla 2"
-	},
-		img: "3.jpg",
-		title: "Blabla 3"
-	},
-		img: "4.jpg",
-		title: "Blabla 4"
-	},
-		img: "5.jpg",
-		title: "Blabla 5"
-	},
-		img: "6.jpg",
-		title: "Blabla 6"
-	}
+---
+- 
+	var posts = [
+		{img: "img/1.jpg",title: "Blabla 1"},
+		{img: "2.jpg",title: "Blabla 2"},
+		{img: "3.jpg",title: "Blabla 3"},
+		{img: "4.jpg",title: "Blabla 4"},
+		{img: "5.jpg",title: "Blabla 5"},
+		{img: "6.jpg",title: "Blabla 6"}
+];
 ---
 extends layouts/_layout
 block content
-  h1 Empty
+	.items
+		.item(style(background-image: url('img/1.jpg')))
+			h2.item__title Title
+		.item(style(background-image: url('img/2.jpg')))
+			h2.item__title Title
+		.item(style(background-image: url('img/3.jpg')))
+			h2.item__title Title
