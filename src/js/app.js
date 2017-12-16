@@ -1,3 +1,3 @@
-import sayHello from './lib/sayHello.js';
+import Barba from 'barba.js';
 
-sayHello();
+Barba.Pjax.start();
